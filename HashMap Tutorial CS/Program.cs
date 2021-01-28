@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HashMap_Tutorial_CS
 {
@@ -30,74 +28,23 @@ namespace HashMap_Tutorial_CS
 	        map[18] = "R";
 	        map[19] = "S";
 
-	        Console.WriteLine(map[1 ]);
-	        Console.WriteLine(map[2 ]);
-	        Console.WriteLine(map[3 ]);
-	        Console.WriteLine(map[4 ]);
-	        Console.WriteLine(map[5 ]);
-	        Console.WriteLine(map[6 ]);
-	        Console.WriteLine(map[7 ]);
-	        Console.WriteLine(map[8 ]);
-	        Console.WriteLine(map[9 ]);
-	        Console.WriteLine(map[10]);
-	        Console.WriteLine(map[11]);
-	        Console.WriteLine(map[12]);
-	        Console.WriteLine(map[13]);
-	        Console.WriteLine(map[14]);
-	        Console.WriteLine(map[15]);
-	        Console.WriteLine(map[16]);
-	        Console.WriteLine(map[17]);
-	        Console.WriteLine(map[18]);
-	        Console.WriteLine(map[19]);
+            foreach(int key in map.Keys)
+                Console.WriteLine(map[key]);
 
-	        map.Remove(1);
+            map.Remove(1);
 	        map.Remove(2);
 	        map.Remove(3);
 	        map.Remove(4);
 	        map.Remove(5);
 	        map.Remove(6);
 
-	        Console.WriteLine(map[1 ]);
-	        Console.WriteLine(map[2 ]);
-	        Console.WriteLine(map[3 ]);
-	        Console.WriteLine(map[4 ]);
-	        Console.WriteLine(map[5 ]);
-	        Console.WriteLine(map[6 ]);
-	        Console.WriteLine(map[7 ]);
-	        Console.WriteLine(map[8 ]);
-	        Console.WriteLine(map[9 ]);
-	        Console.WriteLine(map[10]);
-	        Console.WriteLine(map[11]);
-	        Console.WriteLine(map[12]);
-	        Console.WriteLine(map[13]);
-	        Console.WriteLine(map[14]);
-	        Console.WriteLine(map[15]);
-	        Console.WriteLine(map[16]);
-	        Console.WriteLine(map[17]);
-	        Console.WriteLine(map[18]);
-	        Console.WriteLine(map[19]);
+            foreach (int key in map.Keys)
+                Console.WriteLine(map[key]);
 
-	        map.Clear();
+            map.Clear();
 
-	        Console.WriteLine(map[1 ]);
-	        Console.WriteLine(map[2 ]);
-	        Console.WriteLine(map[3 ]);
-	        Console.WriteLine(map[4 ]);
-	        Console.WriteLine(map[5 ]);
-	        Console.WriteLine(map[6 ]);
-	        Console.WriteLine(map[7 ]);
-	        Console.WriteLine(map[8 ]);
-	        Console.WriteLine(map[9 ]);
-	        Console.WriteLine(map[10]);
-	        Console.WriteLine(map[11]);
-	        Console.WriteLine(map[12]);
-	        Console.WriteLine(map[13]);
-	        Console.WriteLine(map[14]);
-	        Console.WriteLine(map[15]);
-	        Console.WriteLine(map[16]);
-	        Console.WriteLine(map[17]);
-	        Console.WriteLine(map[18]);
-	        Console.WriteLine(map[19]);
+            foreach (int key in map.Keys)
+                Console.WriteLine(map[key]);
         }
     }
 }
